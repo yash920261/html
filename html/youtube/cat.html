@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(120, 82, 178); 
+        justify-content: space-between;     
+        height: 40px;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 30px;
+      }
+      .search{
+        flex: 1;
+        max-width: 500px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+      }
+      .textbox{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="home">HOME</div>
+      <div class="search">
+        <input class="textbox" type="textbox" placeholder="SEARCH">
+      </div>
+      <div class="download">DOWNLOAD</div>
+
+    </div>
+  </body>
+</html>

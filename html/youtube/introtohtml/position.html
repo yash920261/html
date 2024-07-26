@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .sidebar1{
+                background-color: rgba(0, 0, 0, 0.899);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                width: 100px;
+            }
+            .image1{
+                margin-top: 20px;
+            }
+            .jpg{
+                width: 55px;
+                height: 55px;
+                margin-left: 20px;
+                margin-top: 5px;
+                margin-bottom: 2px;
+                object-fit: cover;
+                object-position: center;     
+                          
+                border-radius: 30px;
+
+            }
+            .sidebar2{
+                font-family: arial;
+                color: white;
+                background-color: rgba(0,0,0,0.7);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 100px;
+                width:250px;
+            }
+            .infoflexbox{
+                display: flex;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-right: 10px;
+                margin-bottom: 12px;
+                align-items: center;
+            }
+            .info{
+                flex: 1;
+            }
+            .plus{
+                width: 20px;
+                font-size: 30px;
+                color: rgba(255, 255, 255, 0.562);
+                
+            }
+            .videos{
+                margin-left: 20px;
+                margin-bottom: 15px;
+                color: rgba(255, 255, 255, 0.562);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidebar1">
+            <div class="image1">
+                <img class="jpg" src="../thumbnails/cat.jpg">
+            </div>
+            <div class="image2">
+                <img class="jpg" src="../thumbnails/cat.jpg">
+            </div>
+            <div class="image3">
+                <img class="jpg" src="../thumbnails/cat.jpg">
+            </div>
+        </div>
+
+        <div class="sidebar2">
+            <div class="infoflexbox">
+                <div class="info">INFO</div>
+                <div class="plus">+</div>
+            </div>
+            <div class="videos"># new-videos</div>
+            <div class="videos"># updates</div>
+            <div class="videos"># faq</div>
+        </div>
+    </body>
+</html>

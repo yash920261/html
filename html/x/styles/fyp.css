@@ -1,0 +1,48 @@
+body{
+    font-family: roboto,arial;
+    margin: 0;
+    color: white;
+}
+
+
+
+.post{
+    display: flex;
+    align-items: start;
+    background-color: black;
+    width: 598.4px;
+    height: 152px;
+    border-bottom-width:1px ;
+    border-bottom-color: rgba(255, 255, 255, 0.20);
+    border-bottom-style: solid;
+}
+.profilepic{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.prompt{
+    color: rgba(231, 233, 234,0.4);
+    flex: 1;
+    font-size: 20px;
+    font-weight: 400px;
+    vertical-align: center;
+    margin-top: 25px;
+}
+.superdev{
+    width: 40px;
+    border-radius: 20px;
+}
+.noposts{
+    display: flex;
+    background-color: black;
+    color: lightblue;
+    justify-content: center;
+    align-items: center;
+    width: 598.4px;
+    height: 48px;
+    border-bottom-width:1px ;
+    border-bottom-color: rgba(255, 255, 255, 0.20);
+    border-bottom-style: solid;
+}

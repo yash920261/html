@@ -1,0 +1,42 @@
+p{
+    font-family: roboto;
+}
+.title{
+    font-size:18px;
+    font-weight:bold;
+    width:300px;
+    line-height:24px;
+    margin-bottom:5px;
+}
+.stats{
+    font-size: 14px;
+    color:#606060;
+    margin-top:0px;
+    margin-bottom:20px;
+}
+.author{
+    color:#606060;
+    font-size:14px;
+    margin-top:0px;
+    
+}
+.more{
+    width:300px;
+    color:#606060;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom:100px;
+}
+.shop{
+    font-size:14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.abc:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
